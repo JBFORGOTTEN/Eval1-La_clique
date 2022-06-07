@@ -5,13 +5,57 @@ body {
 header {
     border: solid;
     background-color: #FF8C00;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px hsla(0, 0%, 0%, 0.322);
+
+}
+
+
+
+.titlepage {
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
 }
 
 .logoclique {
     border-radius: 10%;
+
+    justify-content: center;
 }
 
 .title {
     font-family: 'Monoton', cursive;
     color: #708090;
+}
+
+.navbar {
+    border: solid;
+}
+
+ul {
+    border: solid;
+}
+
+.navbar ul li {
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+    background-color: rgb(181, 241, 233);
+    justify-content: space-around;
+    align-items: center;
+    height: 9vh;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font: italic bold 13px/1em Arial, Verdana, Helvetica;
+
+
 }
