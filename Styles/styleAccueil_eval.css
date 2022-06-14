@@ -2,9 +2,10 @@ body {
     background-color: #F5F5DC;
 }
 
+/*style header*/
 header {
-    border: solid;
-    background-color: #FF8C00;
+    border: 1px solid #444444;
+    background: linear-gradient(to bottom, #FF8C00, #f1c691);
     border-radius: 10px;
     box-shadow: 2px 4px 10px hsla(0, 0%, 0%, 0.322);
 
@@ -17,32 +18,34 @@ header {
     align-items: center;
     padding: 5px;
     margin: 5px;
+
 }
 
 h1 {
     text-align: center;
+
+}
+
+.divlogo {
+    display: flex;
+    justify-content: center;
 }
 
 .logoclique {
     border-radius: 10%;
 
-    justify-content: center;
 }
 
 .title {
     font-family: 'Monoton', cursive;
     color: #708090;
+    font-size: 3em;
+
 }
 
-.navbar {
-    border: solid;
-}
-
-ul {
-    border: solid;
-}
 
 .navbar ul li {
+    display: flex;
     border-left: 1px solid #444444;
     border-right: 1px solid #444444;
     border-top: 1px solid #444444;
@@ -55,7 +58,27 @@ ul {
     margin: 5px;
     padding: 5px;
     text-align: center;
+    vertical-align: bottom;
     font: italic bold 13px/1em Arial, Verdana, Helvetica;
+    color: black;
+    font-size: 100%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*style du bloc A PROPOS */
 
 
+section {
+    border: 1px solid #444444;
+    background-color: #f1c691;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px hsla(0, 0%, 0%, 0.322);
+}
+
+h2 {
+    font: italic bold 13px/3em Arial, Verdana, Helvetica;
 }
